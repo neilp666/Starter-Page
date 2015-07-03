@@ -10,23 +10,26 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  */
- @import url(//fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
- @import url(//fonts.googleapis.com/css?family=Varela+Round);
+ 
  @import url(//fonts.googleapis.com/css?family=Raleway:400,200,600,700,800,500,300,100);
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- body {
-  background-color: #F5F5F1;
-  padding-top: 10px;
 
+.jumbotron {
+  background-image: url({YOUR_IMAGE_URL});
+  text-align: center;
+  font-family: "Raleway";
+  height: 400px;
+  margin: 0px;
+  background-position: center;
+
+  
 }
 
-.navbar-brand {
-  height: 26px;
-  margin-top: 17px;
-  font-family: 'Raleway', arial;
-}
+
+
+
 
 
 
