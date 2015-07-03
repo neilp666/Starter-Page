@@ -17,12 +17,17 @@
 
 
 .jumbotron {
-  text-align: center;
-  background-color: white;
   font-family: 'Raleway';
   font-size: 24;
   height: 500px;
   margin: 0px;
+
+  background: url('https://dl.dropboxusercontent.com/s/915k9cw2lf2n01i/splash4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+
 
   .btn {
   font-size: 24px;
@@ -38,10 +43,19 @@
   background-color: #f5f5f5;
 }
 
-
-#get-involved {
-  background-color: #f5f5f5;
+#team {
+  font-family: 'Raleway';
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+}
+
+  
+hr {
+  border-top: 1px solid black;
+  width: 160px;
+  margin-top: 15px;
 }
 
 
